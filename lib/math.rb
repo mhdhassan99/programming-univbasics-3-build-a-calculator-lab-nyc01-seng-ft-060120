@@ -5,7 +5,7 @@ end
 
 def subtraction(num1, num2)
   result = (num2 - num1)
-  return result
+  return result.abs
 end
 
 def division(num1, num2)
