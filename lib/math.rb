@@ -10,7 +10,7 @@ end
 
 def division(num1, num2)
   result = num2 / num1
-  return result
+  return result.abs
 end
 
 def multiplication(num1, num2)
